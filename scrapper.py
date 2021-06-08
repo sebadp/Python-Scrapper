@@ -21,14 +21,8 @@ def parse_notice(link, today):
             try:
                 title = parsed_notice.xpath(XPATH_TITLE)[0]
                 # title = title.replace('\"', '')
-    o no sólo reconocerlo, si no trabajar en ello, para que cada persona pueda elegir el/los beneficios qué mas se ajusten a su parecer 😊.
-El Cronista Comercial
-El Cronista Comercial 31.975 seguidores 2 días •
-hace 2 días
-Cada vez más empresas apelan al "salario emocional" para para atraer y retener talento. Se trata de aquellas retribuciones fuera de le económico que un trabajador puede conseguir por su trabajo.
-
-Conocé más de este concepto 👇
-            body = parsed_notice.xpath(XPATH_BODY)
+  
+                body = parsed_notice.xpath(XPATH_BODY)
             except IndexError:
                 return
 
