@@ -1,0 +1,4 @@
+Links: //h2[@class="cardArticleTitle"]/a/@href
+Titles: //h1[@class="DefaultTitle"]/text()
+Resume: //h1[@class="DefaultSubtitle"]/text()
+Body: //div[@class="page-internal-content"]/section[@class="section-visibility"]/p/text()
